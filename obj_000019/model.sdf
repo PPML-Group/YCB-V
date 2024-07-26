@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+<!--
+This SDF file was automatically generated using a template modified 
+and authored by Jinjian Li. The moment of interia is not supposed to be changed.
+-->
+    <model name="obj_000019">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose> 
+      <link name="link">
+        <inertial>
+          <inertia>
+           <ixx>0.00021017322804307807</ixx>
+           <ixy>1.6438825102290536e-05</ixy>
+           <ixz>1.0471378723156533e-05</ixz>
+           <iyy>0.0001184138606546334</iyy>
+           <iyz>-1.0438664267772428e-05</iyz>
+           <izz>0.000308305939491237</izz>
+          </inertia>
+          <mass>0.1339318799996835</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+             <uri>obj_000019.obj</uri>
+             <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>obj_000019.obj</uri>
+             <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>

@@ -1,2 +1,2 @@
 # YCB-V
-YCB-V object for using in Ignition Gazebo
+YCB-V objects for using in Ignition Gazebo
